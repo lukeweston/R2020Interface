@@ -127,31 +127,30 @@
 </layers>
 <board>
 <plain>
-<wire x1="-1.27" y1="46.99" x2="2.54" y2="50.8" width="0" layer="20" curve="-90"/>
-<wire x1="2.54" y1="50.8" x2="86.36" y2="50.8" width="0" layer="20"/>
-<wire x1="86.36" y1="50.8" x2="90.17" y2="46.99" width="0" layer="20" curve="-90"/>
-<wire x1="90.17" y1="46.99" x2="90.17" y2="3.81" width="0" layer="20"/>
-<wire x1="90.17" y1="3.81" x2="86.36" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="86.36" y1="0" x2="2.54" y2="0" width="0" layer="20"/>
-<wire x1="2.54" y1="0" x2="-1.27" y2="3.81" width="0" layer="20" curve="-90"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="46.99" width="0" layer="20"/>
+<wire x1="1.27" y1="46.99" x2="5.08" y2="50.8" width="0" layer="20" curve="-90"/>
+<wire x1="5.08" y1="50.8" x2="80.01" y2="50.8" width="0" layer="20"/>
+<wire x1="80.01" y1="50.8" x2="83.82" y2="46.99" width="0" layer="20" curve="-90"/>
+<wire x1="83.82" y1="46.99" x2="83.82" y2="3.81" width="0" layer="20"/>
+<wire x1="83.82" y1="3.81" x2="80.01" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="80.01" y1="0" x2="5.08" y2="0" width="0" layer="20"/>
+<wire x1="5.08" y1="0" x2="1.27" y2="3.81" width="0" layer="20" curve="-90"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="46.99" width="0" layer="20"/>
 <text x="44.45" y="26.67" size="1.016" layer="21" ratio="15">1</text>
 <text x="42.38625" y="26.9875" size="0.8128" layer="21" ratio="15">ISP</text>
 <text x="47.3075" y="24.28875" size="0.8128" layer="21" ratio="15">PC7</text>
 <text x="48.73625" y="25.55875" size="0.8128" layer="21" ratio="15">PD6</text>
 <text x="54.13375" y="25.55875" size="0.8128" layer="21" ratio="15">PD5</text>
-<text x="75.40625" y="29.5275" size="0.8128" layer="21" ratio="15">R2020</text>
-<text x="80.80375" y="30.48" size="0.8128" layer="21" ratio="15">INDEX FB</text>
-<text x="86.51875" y="37.7825" size="0.8128" layer="21" ratio="15">HIGH</text>
-<text x="86.51875" y="32.7025" size="0.8128" layer="21" ratio="15">LOW</text>
-<text x="86.51875" y="35.2425" size="0.8128" layer="21" ratio="15">IN</text>
+<text x="74.13625" y="29.5275" size="0.8128" layer="21" ratio="15">R2020</text>
+<text x="65.405" y="37.62375" size="0.8128" layer="21" ratio="15">HIGH</text>
+<text x="66.04" y="32.54375" size="0.8128" layer="21" ratio="15">LOW</text>
+<text x="66.9925" y="35.2425" size="0.8128" layer="21" ratio="15">IN</text>
 <text x="71.59625" y="27.6225" size="0.8128" layer="21" ratio="15">I</text>
 <text x="71.59625" y="25.0825" size="0.8128" layer="21" ratio="15">B</text>
 <text x="71.59625" y="22.5425" size="0.8128" layer="21" ratio="15">A</text>
 <text x="71.59625" y="17.4625" size="0.8128" layer="21" ratio="15">U</text>
 <text x="71.59625" y="20.0025" size="0.8128" layer="21" ratio="15">D</text>
-<text x="70.485" y="5.3975" size="0.8128" layer="21" ratio="15">5V</text>
-<text x="70.1675" y="4.445" size="0.8128" layer="21" ratio="15">Out</text>
+<text x="71.755" y="10.16" size="0.8128" layer="21" ratio="15" rot="SR270">5V</text>
+<text x="71.755" y="8.5725" size="0.8128" layer="21" ratio="15" rot="SR270">Out</text>
 <text x="61.43625" y="7.3025" size="0.8128" layer="21" ratio="15">Error</text>
 <text x="49.05375" y="2.69875" size="0.8128" layer="21" ratio="15">DTR</text>
 <text x="51.7525" y="2.69875" size="0.8128" layer="21" ratio="15">RXD</text>
@@ -172,12 +171,12 @@
 <text x="65.24625" y="25.7175" size="0.8128" layer="21" ratio="15">STP</text>
 <text x="64.92875" y="30.7975" size="0.8128" layer="21" ratio="15">+5V</text>
 <text x="60.325" y="30.7975" size="0.8128" layer="21" ratio="15">!CS</text>
-<text x="-0.9525" y="37.62375" size="1.016" layer="21" ratio="15">+60V</text>
-<text x="-0.9525" y="30.48" size="1.016" layer="21" ratio="15">+24V</text>
-<text x="-0.3175" y="23.65375" size="1.016" layer="21" ratio="15">+5V</text>
-<text x="-0.3175" y="20.0025" size="1.016" layer="21" ratio="15">GND</text>
-<text x="-0.3175" y="26.9875" size="1.016" layer="21" ratio="15">GND</text>
-<text x="-0.3175" y="34.13125" size="1.016" layer="21" ratio="15">GND</text>
+<text x="1.5875" y="40.16375" size="1.016" layer="21" ratio="15" rot="SR270">+60V</text>
+<text x="1.5875" y="32.7025" size="1.016" layer="21" ratio="15" rot="SR270">+24V</text>
+<text x="1.5875" y="25.7175" size="1.016" layer="21" ratio="15" rot="SR270">+5V</text>
+<text x="1.5875" y="22.06625" size="1.016" layer="21" ratio="15" rot="SR270">GND</text>
+<text x="1.5875" y="28.73375" size="1.016" layer="21" ratio="15" rot="SR270">GND</text>
+<text x="1.5875" y="35.8775" size="1.016" layer="21" ratio="15" rot="SR270">GND</text>
 <text x="7.3025" y="16.03375" size="0.8128" layer="21" ratio="15">CAN H</text>
 <text x="7.3025" y="11.1125" size="0.8128" layer="21" ratio="15">CAN L</text>
 <text x="15.24" y="19.685" size="0.8128" layer="21" ratio="15">TERM</text>
@@ -190,10 +189,12 @@
 <text x="57.15" y="33.9725" size="0.8128" layer="21" ratio="15">MISO</text>
 <text x="60.16625" y="33.9725" size="0.8128" layer="21" ratio="15">SCK</text>
 <text x="62.5475" y="33.9725" size="0.8128" layer="21" ratio="15">PWM</text>
-<text x="9.2075" y="2.06375" size="0.8128" layer="21" ratio="15">R2020 Servo Controller</text>
-<text x="10.795" y="0.635" size="0.8128" layer="21" ratio="15">Luke Weston, 2013</text>
+<text x="11.7475" y="2.06375" size="0.8128" layer="21" ratio="15">R2020 Servo Controller</text>
+<text x="13.335" y="0.635" size="0.8128" layer="21" ratio="15">Luke Weston, 2013</text>
 <text x="21.59" y="6.82625" size="0.8128" layer="21" ratio="15">Reset</text>
 <text x="12.3825" y="47.14875" size="0.8128" layer="21" ratio="15">Power</text>
+<text x="82.55" y="32.0675" size="0.8128" layer="21" ratio="15" rot="SR270">INDEX</text>
+<text x="81.5975" y="32.22625" size="0.8128" layer="21" ratio="15" rot="SR270">FBACK</text>
 </plain>
 <libraries>
 <library name="con-harting">
@@ -2303,10 +2304,10 @@ Metric Code Size 3225</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="86.36" y="46.99" smashed="yes"/>
-<element name="JP2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="86.36" y="3.81" smashed="yes"/>
-<element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="46.99" smashed="yes"/>
-<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="3.81" smashed="yes"/>
+<element name="JP1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="80.01" y="46.99" smashed="yes"/>
+<element name="JP2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="71.12" y="3.81" smashed="yes"/>
+<element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="46.99" smashed="yes"/>
+<element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="3.81" smashed="yes"/>
 <element name="IC5" library="microchip_can" package="SO-08" value="MCP2551" x="25.4" y="13.97" smashed="yes">
 <attribute name="PACKAGE" value="8-SOIC" x="77.47" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.01875" y="9.17575" size="0.8128" layer="25" ratio="15"/>
@@ -2422,13 +2423,13 @@ Metric Code Size 3225</description>
 <attribute name="NAME" x="51.7525" y="9.68375" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="43.97375" y="19.3675" size="0.8128" layer="27" ratio="15"/>
 </element>
-<element name="J10" library="con-molex" package="7395-03" value="Position feedback pot" x="72.39" y="35.56" smashed="yes" rot="R90">
-<attribute name="OC_NEWARK" value="unknown" x="72.39" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="72.39" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="72.39" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="72.39" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="75.08875" y="39.84625" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="71.4375" y="39.84625" size="0.8128" layer="27" ratio="15"/>
+<element name="J10" library="con-molex" package="7395-03" value="Position feedback pot" x="69.85" y="35.56" smashed="yes" rot="R90">
+<attribute name="OC_NEWARK" value="unknown" x="69.85" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="69.85" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="" x="69.85" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="69.85" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="72.54875" y="39.84625" size="0.8128" layer="25" ratio="15"/>
+<attribute name="VALUE" x="68.8975" y="39.84625" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="IC2" library="freetronics-luke" package="SO08T" value="RT8289" x="36.195" y="33.02" smashed="yes">
 <attribute name="PACKAGE" value="8-SOIC-T" x="36.195" y="33.02" size="1.778" layer="27" display="off"/>
@@ -2460,25 +2461,25 @@ Metric Code Size 3225</description>
 <attribute name="NAME" x="38.7985" y="19.8755" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="42.71645" y="15.97025" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="C16" library="freetronics-master-v1" package="0603" value="1nF" x="68.58" y="40.64" smashed="yes" rot="R180">
-<attribute name="PACKAGE" value="0603" x="68.58" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="67.53225" y="41.30675" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="67.564" y="41.42105" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="C16" library="freetronics-master-v1" package="0603" value="1nF" x="76.35875" y="42.545" smashed="yes" rot="R270">
+<attribute name="PACKAGE" value="0603" x="76.35875" y="42.545" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="77.75575" y="41.49725" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="77.8002" y="41.529" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R13" library="freetronics-master-v1" package="0603" value="220Ω" x="68.58" y="38.1" smashed="yes">
-<attribute name="PACKAGE" value="0603" x="68.58" y="38.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="67.53225" y="38.76675" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="67.2465" y="38.7223" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="R13" library="freetronics-master-v1" package="0603" value="220Ω" x="67.31" y="40.64" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0603" x="67.31" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="66.64325" y="39.59225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="66.6877" y="39.3065" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R16" library="freetronics-master-v1" package="0603" value="220Ω" x="68.58" y="33.02" smashed="yes" rot="R180">
-<attribute name="PACKAGE" value="0603" x="68.58" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="67.53225" y="31.623" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="67.2465" y="33.6423" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="R16" library="freetronics-master-v1" package="0603" value="220Ω" x="71.755" y="41.91" smashed="yes" rot="R180">
+<attribute name="PACKAGE" value="0603" x="71.755" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="70.70725" y="42.57675" size="0.8128" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="70.4215" y="42.5323" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R17" library="freetronics-master-v1" package="0603" value="1MΩ" x="68.58" y="35.56" smashed="yes" rot="R180">
-<attribute name="PACKAGE" value="0603" x="68.58" y="35.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="64.99225" y="35.1155" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="65.024" y="35.07105" size="0.8128" layer="27" font="vector" ratio="15"/>
+<element name="R17" library="freetronics-master-v1" package="0603" value="1MΩ" x="74.295" y="42.545" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0603" x="74.295" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="75.692" y="41.656" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="75.73645" y="41.529" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="J3" library="con-harting" package="CON16" value="R2020" x="77.47" y="16.51" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="77.47" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2488,19 +2489,19 @@ Metric Code Size 3225</description>
 <attribute name="NAME" x="73.9775" y="29.5275" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="73.9775" y="29.5275" size="0.8128" layer="27" ratio="15"/>
 </element>
-<element name="LED1" library="freetronics-master-v1" package="LED-0603" value="5V Out" x="71.12" y="7.62" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0603" x="71.12" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COLOR" value="Jade" x="71.12" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="71.5137" y="8.9535" size="0.8128" layer="25" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="71.4502" y="8.98525" size="0.8128" layer="27" ratio="15" rot="R90"/>
+<element name="LED1" library="freetronics-master-v1" package="LED-0603" value="5V Out" x="71.12" y="8.09625" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0603" x="71.12" y="8.09625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COLOR" value="Jade" x="71.12" y="8.09625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="71.5137" y="9.42975" size="0.8128" layer="25" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="71.4502" y="9.4615" size="0.8128" layer="27" ratio="15" rot="R90"/>
 </element>
-<element name="R2" library="freetronics-master-v1" package="0603" value="1kΩ" x="69.215" y="7.62" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0603" x="69.215" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.6435" y="5.42925" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="69.5452" y="8.98525" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="R2" library="freetronics-master-v1" package="0603" value="1kΩ" x="69.215" y="7.77875" smashed="yes" rot="R90">
+<attribute name="PACKAGE" value="0603" x="69.215" y="7.77875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="69.50075" y="9.11225" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="69.5452" y="9.144" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="J4" library="freetronics-luke" package="SJ" value="Index Feedback" x="83.82" y="29.21" smashed="yes">
-<attribute name="NAME" x="83.1215" y="30.51175" size="0.8128" layer="25" ratio="15"/>
+<element name="J4" library="freetronics-luke" package="SJ" value="Index Feedback" x="79.6925" y="30.7975" smashed="yes">
+<attribute name="NAME" x="81.534" y="30.353" size="0.8128" layer="25" ratio="15"/>
 </element>
 <element name="R3" library="freetronics-master-v1" package="0603" value="10kΩ" x="41.75125" y="33.02" smashed="yes" rot="R270">
 <attribute name="PACKAGE" value="0603" x="41.75125" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2700,7 +2701,7 @@ Metric Code Size 3225</description>
 <attribute name="NAME" x="28.47975" y="5.74675" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="27.40025" y="5.86105" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="SY1" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="6.82625" y="1.74625"/>
+<element name="SY1" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="9.36625" y="1.74625"/>
 <element name="LED5" library="freetronics-master-v1" package="LED-0603" value="Power" x="13.97" y="46.51375" smashed="yes">
 <attribute name="PACKAGE" value="0603" x="13.97" y="46.51375" size="0.8128" layer="27" ratio="15" display="off"/>
 <attribute name="COLOR" value="Blue" x="13.97" y="46.51375" size="0.8128" layer="27" ratio="15" display="off"/>
@@ -2888,11 +2889,6 @@ Metric Code Size 3225</description>
 <wire x1="66.04" y1="29.21" x2="66.04" y2="31.115" width="0.4064" layer="1"/>
 <wire x1="66.04" y1="31.115" x2="64.77" y2="32.385" width="0.4064" layer="1"/>
 <contactref element="J12" pad="1"/>
-<wire x1="64.77" y1="32.385" x2="64.77" y2="33.655" width="0.4064" layer="1"/>
-<wire x1="64.77" y1="33.655" x2="66.04" y2="34.925" width="0.4064" layer="1"/>
-<wire x1="66.04" y1="34.925" x2="66.04" y2="36.98875" width="0.4064" layer="1"/>
-<wire x1="66.04" y1="36.98875" x2="67.15125" y2="38.1" width="0.4064" layer="1"/>
-<wire x1="67.15125" y1="38.1" x2="67.818" y2="38.1" width="0.4064" layer="1"/>
 <wire x1="57.023" y1="29.21" x2="57.023" y2="27.7495" width="0.4064" layer="1"/>
 <wire x1="57.023" y1="27.7495" x2="58.1025" y2="26.67" width="0.4064" layer="1"/>
 <wire x1="42.38625" y1="36.83" x2="50.8" y2="36.83" width="0.4064" layer="1"/>
@@ -2924,6 +2920,10 @@ Metric Code Size 3225</description>
 <via x="16.03375" y="44.45" extent="1-16" drill="0.4"/>
 <wire x1="16.03375" y1="44.45" x2="36.8286" y2="44.45" width="0.6096" layer="16"/>
 <wire x1="36.8286" y1="44.45" x2="36.8286" y2="44.4514" width="0.6096" layer="16"/>
+<wire x1="64.77" y1="32.385" x2="64.77" y2="34.29" width="0.4064" layer="1"/>
+<wire x1="64.77" y1="34.29" x2="65.405" y2="34.925" width="0.4064" layer="1"/>
+<wire x1="65.405" y1="34.925" x2="65.405" y2="37.973" width="0.4064" layer="1"/>
+<wire x1="65.405" y1="37.973" x2="67.31" y2="39.878" width="0.4064" layer="1"/>
 </signal>
 <signal name="+24V">
 <contactref element="J3" pad="16"/>
@@ -2953,9 +2953,9 @@ Metric Code Size 3225</description>
 <wire x1="36.83" y1="38.1" x2="40.64" y2="38.1" width="0.6096" layer="16"/>
 <wire x1="40.64" y1="38.1" x2="45.72" y2="43.18" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="43.18" x2="71.12" y2="43.18" width="0.6096" layer="16"/>
-<wire x1="71.12" y1="43.18" x2="74.93" y2="39.37" width="0.6096" layer="16"/>
-<wire x1="74.93" y1="39.37" x2="74.93" y2="34.29" width="0.6096" layer="16"/>
-<wire x1="74.93" y1="34.29" x2="81.915" y2="27.305" width="0.6096" layer="16"/>
+<wire x1="71.12" y1="43.18" x2="76.2" y2="38.1" width="0.6096" layer="16"/>
+<wire x1="76.2" y1="38.1" x2="76.2" y2="33.02" width="0.6096" layer="16"/>
+<wire x1="76.2" y1="33.02" x2="81.915" y2="27.305" width="0.6096" layer="16"/>
 <wire x1="81.915" y1="27.305" x2="81.915" y2="10.795" width="0.6096" layer="16"/>
 <wire x1="81.915" y1="10.795" x2="78.74" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="38.1" y1="36.83" x2="36.83" y2="38.1" width="0.6096" layer="1"/>
@@ -3111,9 +3111,8 @@ Metric Code Size 3225</description>
 <signal name="INDEX_IN">
 <contactref element="J3" pad="4"/>
 <contactref element="J4" pad="2"/>
-<wire x1="84.582" y1="29.21" x2="84.582" y2="26.162" width="0.6096" layer="1"/>
-<wire x1="84.582" y1="26.162" x2="81.28" y2="22.86" width="0.6096" layer="1"/>
-<wire x1="81.28" y1="22.86" x2="78.74" y2="22.86" width="0.6096" layer="1"/>
+<wire x1="80.4545" y1="30.7975" x2="80.4545" y2="24.5745" width="0.6096" layer="1"/>
+<wire x1="80.4545" y1="24.5745" x2="78.74" y2="22.86" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$36">
 <contactref element="R8" pad="2"/>
@@ -3420,7 +3419,6 @@ Metric Code Size 3225</description>
 <contactref element="J10" pad="2"/>
 <contactref element="R17" pad="1"/>
 <contactref element="C16" pad="2"/>
-<wire x1="69.342" y1="35.56" x2="72.39" y2="35.56" width="0.6096" layer="1"/>
 <wire x1="43.9674" y1="11.17" x2="43.9674" y2="8.57885" width="0.4064" layer="1"/>
 <via x="43.9674" y="8.57885" extent="1-16" drill="0.4"/>
 <wire x1="43.9674" y1="8.57885" x2="46.355" y2="6.19125" width="0.4064" layer="16"/>
@@ -3428,15 +3426,16 @@ Metric Code Size 3225</description>
 <wire x1="48.26" y1="6.19125" x2="50.64125" y2="8.5725" width="0.4064" layer="16"/>
 <wire x1="50.64125" y1="8.5725" x2="67.15125" y2="8.5725" width="0.4064" layer="16"/>
 <wire x1="67.15125" y1="8.5725" x2="68.2625" y2="9.68375" width="0.4064" layer="16"/>
-<wire x1="68.2625" y1="9.68375" x2="68.2625" y2="34.925" width="0.4064" layer="16"/>
-<wire x1="68.2625" y1="34.925" x2="68.8975" y2="35.56" width="0.4064" layer="16"/>
-<wire x1="68.8975" y1="35.56" x2="72.39" y2="35.56" width="0.6096" layer="16"/>
-<wire x1="68.8975" y1="35.56" x2="68.8975" y2="35.71875" width="0.4064" layer="16"/>
-<wire x1="68.8975" y1="35.71875" x2="68.2625" y2="36.35375" width="0.6096" layer="16"/>
-<wire x1="68.2625" y1="36.35375" x2="68.2625" y2="39.0525" width="0.6096" layer="16"/>
-<wire x1="68.2625" y1="39.0525" x2="66.675" y2="40.64" width="0.6096" layer="16"/>
-<via x="66.675" y="40.64" extent="1-16" drill="0.4"/>
-<wire x1="66.675" y1="40.64" x2="67.818" y2="40.64" width="0.6096" layer="1"/>
+<wire x1="68.2625" y1="9.68375" x2="68.2625" y2="30.7975" width="0.4064" layer="16"/>
+<wire x1="68.2625" y1="30.7975" x2="67.31" y2="31.75" width="0.4064" layer="16"/>
+<wire x1="67.31" y1="31.75" x2="67.31" y2="34.925" width="0.4064" layer="16"/>
+<wire x1="67.31" y1="34.925" x2="67.945" y2="35.56" width="0.4064" layer="16"/>
+<wire x1="67.945" y1="35.56" x2="69.85" y2="35.56" width="0.4064" layer="16"/>
+<wire x1="69.85" y1="35.56" x2="73.81875" y2="35.56" width="0.6096" layer="16"/>
+<via x="73.81875" y="35.56" extent="1-16" drill="0.4"/>
+<wire x1="76.35875" y1="41.783" x2="76.35875" y2="38.1" width="0.6096" layer="1"/>
+<wire x1="76.35875" y1="38.1" x2="73.81875" y2="35.56" width="0.6096" layer="1"/>
+<wire x1="76.35875" y1="41.783" x2="74.295" y2="41.783" width="0.6096" layer="1"/>
 </signal>
 <signal name="LED1">
 <contactref element="IC1" pad="9"/>
@@ -3487,12 +3486,16 @@ Metric Code Size 3225</description>
 <signal name="N$6">
 <contactref element="J10" pad="1"/>
 <contactref element="R13" pad="2"/>
-<wire x1="69.342" y1="38.1" x2="72.39" y2="38.1" width="0.6096" layer="1"/>
+<wire x1="67.31" y1="41.402" x2="69.088" y2="41.402" width="0.6096" layer="1"/>
+<wire x1="69.088" y1="41.402" x2="69.85" y2="40.64" width="0.6096" layer="1"/>
+<wire x1="69.85" y1="40.64" x2="69.85" y2="38.1" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="J10" pad="3"/>
 <contactref element="R16" pad="1"/>
-<wire x1="69.342" y1="33.02" x2="72.39" y2="33.02" width="0.6096" layer="1"/>
+<wire x1="72.517" y1="41.91" x2="72.517" y2="33.782" width="0.6096" layer="1"/>
+<wire x1="72.517" y1="33.782" x2="71.755" y2="33.02" width="0.6096" layer="1"/>
+<wire x1="71.755" y1="33.02" x2="69.85" y2="33.02" width="0.6096" layer="1"/>
 </signal>
 <signal name="A_OUT">
 <contactref element="J3" pad="1"/>
@@ -3548,7 +3551,9 @@ Metric Code Size 3225</description>
 <signal name="N$4">
 <contactref element="R2" pad="1"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="71.12" y1="6.858" x2="69.215" y2="6.858" width="0.6096" layer="1"/>
+<wire x1="71.12" y1="7.33425" x2="70.2945" y2="7.33425" width="0.6096" layer="1"/>
+<wire x1="69.215" y1="7.01675" x2="69.977" y2="7.01675" width="0.6096" layer="1"/>
+<wire x1="69.977" y1="7.01675" x2="70.2945" y2="7.33425" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="J3" pad="9"/>
@@ -3557,7 +3562,7 @@ Metric Code Size 3225</description>
 <via x="72.39" y="15.24" extent="1-16" drill="0.4"/>
 <wire x1="72.39" y1="15.24" x2="72.39" y2="10.16" width="0.6096" layer="16"/>
 <via x="72.39" y="10.16" extent="1-16" drill="0.4"/>
-<wire x1="69.215" y1="8.382" x2="69.215" y2="9.525" width="0.6096" layer="1"/>
+<wire x1="69.215" y1="8.54075" x2="69.215" y2="9.525" width="0.6096" layer="1"/>
 <wire x1="69.215" y1="9.525" x2="69.85" y2="10.16" width="0.6096" layer="1"/>
 <wire x1="69.85" y1="10.16" x2="72.39" y2="10.16" width="0.6096" layer="1"/>
 </signal>
@@ -3569,8 +3574,8 @@ Metric Code Size 3225</description>
 <wire x1="69.85" y1="27.94" x2="76.2" y2="27.94" width="0.6096" layer="1"/>
 <wire x1="76.2" y1="27.94" x2="77.47" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="77.47" y1="26.67" x2="77.47" y2="21.59" width="0.4064" layer="1"/>
-<wire x1="83.058" y1="29.21" x2="80.01" y2="29.21" width="0.6096" layer="1"/>
-<wire x1="80.01" y1="29.21" x2="77.47" y2="26.67" width="0.6096" layer="1"/>
+<wire x1="78.9305" y1="30.7975" x2="78.9305" y2="28.1305" width="0.6096" layer="1"/>
+<wire x1="78.9305" y1="28.1305" x2="77.47" y2="26.67" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="IC2" pad="8"/>
