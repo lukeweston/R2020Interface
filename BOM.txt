@@ -1,0 +1,56 @@
+
+R1, R3, R5, R10, R14, R15, R21:	10k 1%, 0603 SMD
+R2, R6, R22, R23, R24:		1k, 0603 SMD
+R13, R16:			220 ohm, 0603 SMD
+R19, R20:			100 ohm, 0603 SMD
+R4:				3k16 1%, 0603 SMD
+R7:				330k, 0603 SMD
+R8:				120k 1%, 0603 SMD
+R9:				13k0 1%, 0603 SMD
+R12:				1k5 1%, 0603 SMD
+R17:				1M, 0603 SMD
+R18:				120 ohm, 0603 SMD
+
+C1, C4, C6, C10, C21, C22:	100nF ceramic, 50V, 0603 package.
+C2, C3, C17, C18:		15pF ceramic, 0603 package.
+C19, C20:			560pF ceramic, 0603 package.
+C5:				470pF ceramic, 0603 package.
+C7:				10nF ceramic, 0603 package.
+C8:				10uF 35V ceramic, 0805 SMD package.
+C9:				100uF 10V ceramic, 1206 SMD package.
+C11:				22nF 50V ceramic, 0603 SMD package.
+C12:				100nF 100V ceramic, 0805 SMD package.
+C13:				2.2uF 100V ceramic, 1210 SMD package.
+C14:				4.7uF 35V ceramic, 1206 SMD package.
+C15:				22nF 50V ceramic, 0603 SMD package.
+C16:				1nF 50V ceramic, 0603 SMD package.
+
+D1:				B340A-13-F, SMA package
+D2:				MURA110T3G, SMA package
+
+LED1:				0603 LED, jade
+LED2:				0603 LED, orange
+LED3:				0603 LED, yellow
+LED4:				0603 LED, green
+LED5:				0603 LED, blue
+
+IC1				ATmega328-AU, 32-TQFN
+IC2				RT8289, SOIC8T
+IC3				LM5010SD, 10-WSON
+IC4				MCP2515-I/SO, 18-SOIC wide
+IC5				MCP2551, 8-SOIC
+Q1, Q2:				16 MHz crystal, 3.2x5mm, TXC 7A-16.000MAAE-T
+L1:				10uH SMD inductor, Taiyo Yuden NR10050T100M
+L2:				47uH SMD inductor, Bourns SRN1060-470M
+
+S1:				2-pin momentary tactile pushbutton, SMD.
+J1:				2x3 0,1" pin header
+J2:				1x6 0.1" pin header
+J3:				16-pin IDC box header
+J5, J6, J7, J9:			3-pin 0.1" pin header
+J8:				6-pin 3.5mm PCB screw terminal block
+J10:		 		3-pin 0.1" right-angle Molex KK header
+J12:				6-pin 0.1" right-angle Molex KK header
+J14:				2-pin 0.1" right-angle Molex KK header
+J4, J11, J13, J15:		NP
+
