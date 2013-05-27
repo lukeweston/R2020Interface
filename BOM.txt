@@ -10,6 +10,7 @@ R9:				13k0 1%, 0603 SMD
 R12:				1k5 1%, 0603 SMD
 R17:				1M, 0603 SMD
 R18:				120 ohm, 0603 SMD
+R11:				NP
 
 C1, C4, C6, C10, C21, C22:	100nF ceramic, 50V, 0603 package.
 C2, C3, C17, C18:		15pF ceramic, 0603 package.
