@@ -4939,6 +4939,21 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <text x="-3" y="7" size="1" layer="25" ratio="15">&gt;NAME</text>
 <text x="-3" y="5.5" size="1" layer="27" ratio="15">&gt;VALUE</text>
 </package>
+<package name="FSMSM">
+<description>Tyco FSMSM 2-pin SMD small tactile button</description>
+<smd name="1" x="-4.5974" y="0" dx="1.6002" dy="2.1082" layer="1" rot="R90"/>
+<smd name="2" x="4.5974" y="0" dx="1.6002" dy="2.1082" layer="1" rot="R90"/>
+<wire x1="-2.9972" y1="1.7526" x2="2.9972" y2="1.7526" width="0.127" layer="21"/>
+<wire x1="-2.9972" y1="-1.7526" x2="2.9972" y2="-1.7526" width="0.127" layer="21"/>
+<wire x1="-2.9972" y1="1.7526" x2="-2.9972" y2="-1.7526" width="0.127" layer="21"/>
+<wire x1="2.9972" y1="1.7526" x2="2.9972" y2="-1.7526" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="0.762" x2="-1.4986" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.4986" y1="0.762" x2="1.4986" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="0.762" x2="1.4986" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-0.762" x2="1.4986" y2="-0.762" width="0.127" layer="21"/>
+<text x="-2.54" y="3.81" size="0.8128" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="0.8128" layer="27" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -5022,6 +5037,17 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pin name="GND" x="-12.7" y="-10.16" length="short"/>
 <text x="-10.16" y="20.32" size="2.032" layer="95" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="17.78" size="2.032" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SPST">
+<description>SPST switch</description>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5163,6 +5189,23 @@ Note that there should nothing on the BOM corresponding to this "component".</de
 </gates>
 <devices>
 <device name="" package="NR10050">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FSMSM" prefix="S">
+<description>Tyco FSMSM 2-pin SMD small tactile button</description>
+<gates>
+<gate name="G$1" symbol="SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FSMSM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5586,21 +5629,6 @@ chip</description>
 <smd name="C" x="1.016" y="0" dx="1.27" dy="1.27" layer="1"/>
 <text x="-0.862" y="1.1955" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.916" y="-1.567" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_2PIN_TINY">
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1.5" x2="-2" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.8" width="0.2032" layer="21"/>
-<smd name="1" x="-2.05" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
-<smd name="2" x="2.05" y="0" dx="1.4" dy="1.4" layer="1" rot="R90"/>
-<rectangle x1="-2.4" y1="-0.7" x2="-1.5" y2="0.7" layer="51"/>
-<rectangle x1="1.5" y1="-0.7" x2="2.4" y2="0.7" layer="51"/>
-<hole x="0" y="0.9" drill="0.65"/>
-<hole x="0" y="-0.9" drill="0.65"/>
 </package>
 <package name="1X05">
 <wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
@@ -6328,24 +6356,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 </symbol>
-<symbol name="TS2">
-<wire x1="2.032" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.905" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="6.35" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="6.35" x2="0" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="0" y1="6.35" x2="-1.905" y2="6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.032" y2="1.016" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-4.445" y="9.525" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.318" y="7.239" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
-</symbol>
 <symbol name="M05">
 <wire x1="3.81" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
@@ -6707,23 +6717,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TAC_SWITCH_2PIN" prefix="S">
-<description>&lt;b&gt;Momentary Tactile Switch - 2 pin&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="TS2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TACTILE_SWITCH_SMD_2PIN_TINY">
-<connects>
-<connect gate="1" pin="P" pad="1"/>
-<connect gate="1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10790,7 +10783,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$46" library="freetronics-luke" deviceset="+5V" device=""/>
-<part name="S1" library="freetronics-master-v1" deviceset="TAC_SWITCH_2PIN" device="" value="Reset"/>
 <part name="U$47" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="J7" library="freetronics-master-v1" deviceset="M05" device="PTH" value="Encoder"/>
 <part name="R7" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
@@ -10914,6 +10906,9 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <part name="U$9" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="120Ω">
 <attribute name="PACKAGE" value="0603"/>
+</part>
+<part name="S1" library="freetronics-luke" deviceset="FSMSM" device="" value="Reset">
+<attribute name="PACKAGE" value="FSMSM"/>
 </part>
 </parts>
 <sheets>
@@ -11200,10 +11195,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <attribute name="VALUE" x="231.14" y="127" size="1.27" layer="96"/>
 </instance>
 <instance part="U$46" gate="G$1" x="228.6" y="137.16" rot="MR0"/>
-<instance part="S1" gate="1" x="215.9" y="236.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="208.28" y="231.14" size="1.27" layer="95"/>
-<attribute name="VALUE" x="208.28" y="228.6" size="1.27" layer="96"/>
-</instance>
 <instance part="U$47" gate="G$1" x="215.9" y="226.06"/>
 <instance part="J7" gate="G$1" x="152.4" y="271.78" smashed="yes" rot="R180">
 <attribute name="VALUE" x="148.59" y="280.162" size="1.27" layer="96"/>
@@ -11402,6 +11393,11 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <attribute name="NAME" x="91.44" y="325.12" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.44" y="322.58" size="1.27" layer="96"/>
 </instance>
+<instance part="S1" gate="G$1" x="215.9" y="236.22" smashed="yes" rot="R270">
+<attribute name="PACKAGE" x="208.28" y="233.68" size="1.27" layer="96"/>
+<attribute name="NAME" x="208.28" y="238.76" size="1.27" layer="95"/>
+<attribute name="VALUE" x="208.28" y="236.22" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11531,9 +11527,9 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <wire x1="210.82" y1="58.42" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="1" pin="P"/>
 <pinref part="U$47" gate="G$1" pin="GND"/>
 <wire x1="215.9" y1="228.6" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -11959,11 +11955,13 @@ Source: http://focus.ti.com/lit/ds/symlink/sn75176a.pdf</description>
 <wire x1="215.9" y1="251.46" x2="205.74" y2="251.46" width="0.1524" layer="91"/>
 <junction x="215.9" y="251.46"/>
 <label x="208.28" y="251.714" size="1.27" layer="95"/>
-<pinref part="S1" gate="1" pin="S"/>
-<wire x1="215.9" y1="241.3" x2="215.9" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="241.3" x2="215.9" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="238.76" x2="223.52" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="243.84" x2="215.9" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="248.92" x2="215.9" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="238.76" x2="223.52" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="241.3" x2="215.9" y2="248.92" width="0.1524" layer="91"/>
+<junction x="215.9" y="248.92"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
