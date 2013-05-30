@@ -11089,7 +11089,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$60" library="freetronics-luke" deviceset="+5V" device=""/>
-<part name="S2" library="freetronics-luke" deviceset="FSMSM" device="" value="Reset">
+<part name="S1" library="freetronics-luke" deviceset="FSMSM" device="" value="Reset">
 <attribute name="PACKAGE" value="FSMSM"/>
 </part>
 </parts>
@@ -11649,7 +11649,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="226.06" y="66.04" size="1.27" layer="96"/>
 </instance>
 <instance part="U$60" gate="G$1" x="233.68" y="76.2"/>
-<instance part="S2" gate="G$1" x="167.64" y="424.18" smashed="yes" rot="R270">
+<instance part="S1" gate="G$1" x="167.64" y="424.18" smashed="yes" rot="R270">
 <attribute name="PACKAGE" x="160.02" y="421.64" size="1.27" layer="96"/>
 <attribute name="NAME" x="160.02" y="426.72" size="1.27" layer="95"/>
 <attribute name="VALUE" x="160.02" y="424.18" size="1.27" layer="96"/>
@@ -11830,7 +11830,7 @@ DIN A4, landscape with location and doc. field</description>
 <segment>
 <pinref part="U$47" gate="G$1" pin="GND"/>
 <wire x1="167.64" y1="416.56" x2="167.64" y2="419.1" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND"/>
@@ -12364,7 +12364,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="167.64" y1="429.26" x2="167.64" y2="436.88" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="436.88" x2="167.64" y2="439.42" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="426.72" x2="175.26" y2="429.26" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="429.26" x2="167.64" y2="436.88" width="0.1524" layer="91"/>
 <junction x="167.64" y="436.88"/>

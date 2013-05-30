@@ -2712,7 +2712,7 @@ Metric Code Size 3225</description>
 <attribute name="NAME" x="12.92225" y="45.11675" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="12.954" y="45.0723" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="S2" library="freetronics-luke" package="FSMSM" value="Reset" x="20.32" y="5.08" smashed="yes" rot="R180">
+<element name="S1" library="freetronics-luke" package="FSMSM" value="Reset" x="20.32" y="5.08" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="FSMSM" x="20.32" y="5.08" size="0.8128" layer="27" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="13.81125" y="7.14375" size="0.8128" layer="25" ratio="15"/>
 <attribute name="VALUE" x="13.81125" y="6.19125" size="0.8128" layer="27" ratio="15"/>
@@ -2797,7 +2797,7 @@ Metric Code Size 3225</description>
 <contactref element="J12" pad="2"/>
 <contactref element="C5" pad="1"/>
 <contactref element="LED5" pad="C"/>
-<contactref element="S2" pad="2"/>
+<contactref element="S1" pad="2"/>
 <via x="33.02" y="12.7" extent="1-16" drill="0.4"/>
 <via x="43.18" y="35.56" extent="1-16" drill="0.4"/>
 </signal>
@@ -3283,7 +3283,7 @@ Metric Code Size 3225</description>
 <wire x1="27.14625" y1="3.84175" x2="28.448" y2="2.54" width="0.7112" layer="1"/>
 <wire x1="31.75" y1="18.7579" x2="31.75" y2="20.32" width="0.6096" layer="1"/>
 <wire x1="31.75" y1="20.32" x2="33.02" y2="21.59" width="0.6096" layer="1"/>
-<contactref element="S2" pad="1"/>
+<contactref element="S1" pad="1"/>
 <wire x1="24.9174" y1="5.08" x2="27.14625" y2="5.08" width="0.6096" layer="1"/>
 </signal>
 <signal name="!CAN_CS">
